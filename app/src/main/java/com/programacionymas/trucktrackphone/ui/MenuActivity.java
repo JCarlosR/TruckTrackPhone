@@ -16,6 +16,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import com.programacionymas.trucktrackphone.R;
+import com.programacionymas.trucktrackphone.ui.fragment.CallsFragment;
 import com.programacionymas.trucktrackphone.ui.fragment.TravelsFragment;
 
 public class MenuActivity extends AppCompatActivity
@@ -83,7 +84,7 @@ public class MenuActivity extends AppCompatActivity
         if (id == R.id.nav_travels) {
             fragment = new TravelsFragment();
         } else if (id == R.id.nav_calls) {
-            // fragment = new CallsFragment();
+            fragment = new CallsFragment();
         }
 
         if (fragment != null) {

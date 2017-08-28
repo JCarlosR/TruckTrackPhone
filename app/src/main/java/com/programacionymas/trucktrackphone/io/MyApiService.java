@@ -1,5 +1,6 @@
 package com.programacionymas.trucktrackphone.io;
 
+import com.programacionymas.trucktrackphone.model.EmergencyCall;
 import com.programacionymas.trucktrackphone.model.Travel;
 
 import java.util.ArrayList;
@@ -11,5 +12,8 @@ public interface MyApiService {
 
     @GET("travels/pending")
     Call<ArrayList<Travel>> getPendingTravels();
+
+    @GET("distress-calls/pending")
+    Call<ArrayList<EmergencyCall>> getPendingEmergencyCalls();
 
 }

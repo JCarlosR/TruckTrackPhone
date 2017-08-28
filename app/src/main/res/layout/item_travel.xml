@@ -27,6 +27,7 @@
             android:id="@+id/tvRouteName"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:gravity="center"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
             android:text="Trujillo - Lima" />
 
